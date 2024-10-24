@@ -1,0 +1,14 @@
+CREATE TABLE National (
+    NationalId INT AUTO_INCREMENT PRIMARY KEY,  -- Mã quốc gia, tự động tăng
+    NationalName VARCHAR(255) NOT NULL          -- Tên quốc gia, không được để trống
+);
+
+
+CREATE TABLE Player (
+    PlayerId INT AUTO_INCREMENT PRIMARY KEY,   -- Mã người chơi, tự động tăng
+    NationalId INT,                            -- Mã quốc gia, là khóa ngoại từ bảng National
+    PlayerName VARCHAR(255) NOT NULL,          -- Tên người chơi, không được để trống
+    HighScore INT,                             -- Điểm cao nhất
+    Level INT,                                 -- Cấp độ người chơi
+    FOREIGN KEY (NationalId) REFERENCES National(NationalId)  -- Thiết lập khóa ngoại từ bảng National
+);

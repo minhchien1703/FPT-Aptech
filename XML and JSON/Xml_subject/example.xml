@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="exampleXml.css" type="text/css"?>
+<Cars xmlns="example">
+    <Car>
+        <Name id="chien">BMW</Name>
+        <Model>2020</Model>
+    </Car>
+    <Car>
+        <Name id="chien">VF8</Name>
+        <Model>2020</Model>
+    </Car>
+</Cars> 
+
+
+<!-- XPATH example: Cars to Car to Name ... -->

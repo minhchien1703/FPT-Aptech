@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat Box</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .chat-container {
+      width: 400px;
+      max-width: 100%;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .chat-box {
+      height: 300px;
+      overflow-y: auto;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+    }
+
+    .chat-message {
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      background-color: #e0e0e0;
+      word-wrap: break-word;
+    }
+
+    .chat-input-container {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    .chat-input {
+      flex-grow: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .chat-button {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-left: 5px;
+    }
+
+    .chat-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="chat-container">
+    <h2>Chat Box</h2>
+    <div id="chat-box" class="chat-box">
+      <!-- Tin nhắn sẽ hiển thị ở đây -->
+    </div>
+    <div class="chat-input-container">
+      <input type="text" id="chat-input" class="chat-input" placeholder="Nhập tin nhắn...">
+      <button id="chat-button" class="chat-button">Gửi</button>
+    </div>
+  </div>
+
+  <script>
+    window.sessionStorage;
+
+    const chatBox = document.getElementById('chat-box');
+    const chatInput = document.getElementById('chat-input');
+    const chatButton = document.getElementById('chat-button');
+
+    // Hàm để thêm tin nhắn vào khung chat
+    function addMessage(message) {
+      const messageElement = document.createElement('div');
+      messageElement.classList.add('chat-message');
+      messageElement.textContent = message;
+      chatBox.appendChild(messageElement);
+      chatBox.scrollTop = chatBox.scrollHeight;  // Cuộn xuống cuối khung chat
+    }
+
+    // Sự kiện khi bấm nút gửi
+    chatButton.addEventListener('click', () => {
+      const message = chatInput.value.trim();
+      if (message) {
+        addMessage(message);
+        chatInput.value = '';  // Xóa ô nhập sau khi gửi
+      }
+    });
+
+    // Sự kiện khi nhấn Enter để gửi tin nhắn
+    chatInput.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        chatButton.click();
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+liên kết tượng trưng: mklink /j "C:\xampp\htdocs\beautifulbeaches" "C:\Users\cnguy\Desktop\GIT__CLONE\Sem1_project\beautifulbeaches"
