@@ -1,0 +1,12 @@
+<form action="/edit/<%= tree._id %>" method="POST" enctype="multipart/form-data">
+    <label for="treename">Tên cây:</label>
+    <input type="text" name="treename" value="<%= tree.treename %>" required />
+
+    <label for="description">Mô tả:</label>
+    <textarea name="description" required><%= tree.description %></textarea>
+
+    <label for="image">Hình ảnh mới:</label>
+    <input type="file" name="image" />
+
+    <button type="submit">Cập nhật</button>
+</form>

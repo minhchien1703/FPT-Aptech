@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FPT-Aptech\\C#\\Event\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B271E46C-DEC6-40B4-BFBE-17032567C69E}|Event\\Event.csproj|c:\\fpt-aptech\\c#\\event\\event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B271E46C-DEC6-40B4-BFBE-17032567C69E}|Event\\Event.csproj|solutionrelative:event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B271E46C-DEC6-40B4-BFBE-17032567C69E}|Event\\Event.csproj|c:\\fpt-aptech\\c#\\event\\event\\processbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B271E46C-DEC6-40B4-BFBE-17032567C69E}|Event\\Event.csproj|solutionrelative:event\\processbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProcessBusiness.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\Event\\Event\\ProcessBusiness.cs",
+              "RelativeDocumentMoniker": "Event\\ProcessBusiness.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\Event\\Event\\ProcessBusiness.cs",
+              "RelativeToolTip": "Event\\ProcessBusiness.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:55:36.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\Event\\Event\\Program.cs",
+              "RelativeDocumentMoniker": "Event\\Program.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\Event\\Event\\Program.cs",
+              "RelativeToolTip": "Event\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:49:27.696Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

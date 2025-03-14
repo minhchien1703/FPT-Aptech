@@ -1,0 +1,15 @@
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\bin\Debug\net8.0\CRP.exe
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\bin\Debug\net8.0\CRP.deps.json
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\bin\Debug\net8.0\CRP.runtimeconfig.json
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\bin\Debug\net8.0\CRP.dll
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\bin\Debug\net8.0\CRP.pdb
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.GeneratedMSBuildEditorConfig.editorconfig
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.AssemblyInfoInputs.cache
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.AssemblyInfo.cs
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.csproj.CoreCompileInputs.cache
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.sourcelink.json
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.dll
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\refint\CRP.dll
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.pdb
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\CRP.genruntimeconfig.cache
+C:\FPT-Aptech\C#\SOLID\CRP\CRP\obj\Debug\net8.0\ref\CRP.dll

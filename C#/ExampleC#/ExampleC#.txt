@@ -1,0 +1,22 @@
+Trong hệ thống tài khoản của ngân hàng, có một số loại tài khoản như sau:
+
+Tài khoản thông thường: Có thể kiểm tra số dư, chuyển khoản ngân hàng.
+Tài khoản trao đổi: Có thể kiểm tra số dư, chuyển khoản ngân hàng, tỷ giá trao đổi với số dư = tỷ giá trao đổi × số tiền.
+Ví dụ: Hôm nay tỷ giá trao đổi 1USD sang VND là 25.000, số tiền của bạn là 1000 USD. (Số dư = tỷ giá trao đổi × số tiền).
+
+Yêu cầu:
+Người dùng nhập số tiền cho bất kỳ loại tài khoản ngân hàng nào.
+Với bất kỳ loại tài khoản nào, khi kiểm tra số dư sẽ hiển thị: “Số dư của bạn: 25.000.000 đ”.
+Với bất kỳ tài khoản nào, khi chuyển khoản với số tiền, sẽ hiển thị: “Bạn đã chuyển khoản 1.000.000 đ, Số dư của bạn: 24.000.000 đ”.
+Sử dụng ngôn ngữ C# và áp dụng OOP để xây dựng ứng dụng, khuyến khích sử dụng nguyên lý SOLID.
+
+
+
+Trong lĩnh vực âm nhạc, có rất nhiều loại nhạc cụ, tất cả đều có thể "Chơi". Một “Cửa hàng âm nhạc” được thành lập và bán nhạc cụ, cần quản lý nhạc cụ với 
+chi tiết:
+Thông tin chung: Tên nhạc cụ, năm sản xuất, chơi nhạc cụ.
+
+Thông tin đặc biệt:
+Guitar có số lượng dây, ví dụ: 5 dây, 6 dây, ...
+Piano có số phím, ví dụ: 88 phím, 76 phím.
+Sử dụng ngôn ngữ C# và áp dụng lập trình hướng đối tượng để viết một chương trình với ứng dụng Console để quản lý: Nhạc cụ, Guitar, Piano. Tạo một danh sách đối tượng với 5 nhạc cụ khác nhau, in ra màn hình tất cả thông tin của 5 nhạc cụ.

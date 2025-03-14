@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FPT-Aptech\\C#\\Interace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|c:\\fpt-aptech\\c#\\interace\\interace\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|solutionrelative:interace\\airplane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|c:\\fpt-aptech\\c#\\interace\\interace\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|solutionrelative:interace\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|c:\\fpt-aptech\\c#\\interace\\interace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|solutionrelative:interace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|c:\\fpt-aptech\\c#\\interace\\interace\\iflyable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{676F05BC-1A37-406C-BC3E-FB6656A56DA1}|Interace\\Interace.csproj|solutionrelative:interace\\iflyable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Airplane.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\Airplane.cs",
+              "RelativeDocumentMoniker": "Interace\\Airplane.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\Airplane.cs",
+              "RelativeToolTip": "Interace\\Airplane.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:11:08.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bird.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\Bird.cs",
+              "RelativeDocumentMoniker": "Interace\\Bird.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\Bird.cs",
+              "RelativeToolTip": "Interace\\Bird.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:10:43.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IFlyable.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\IFlyable.cs",
+              "RelativeDocumentMoniker": "Interace\\IFlyable.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\IFlyable.cs",
+              "RelativeToolTip": "Interace\\IFlyable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:09:45.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\Program.cs",
+              "RelativeDocumentMoniker": "Interace\\Program.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\Interace\\Interace\\Program.cs",
+              "RelativeToolTip": "Interace\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T13:05:14.491Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

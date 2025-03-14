@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\management.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\bycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\bycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\icar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\icar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\ibycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\ibycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\boy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\boy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|c:\\fpt-aptech\\c#\\democlasscsharp\\democlasscsharp\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EF5575-4E4E-44A6-AE4B-CA03573B7409}|DemoClassCSharp\\DemoClassCSharp.csproj|solutionrelative:democlasscsharp\\ivehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Management.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Management.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\Management.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Management.cs",
+              "RelativeToolTip": "DemoClassCSharp\\Management.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T14:55:58.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bycle.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Bycle.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\Bycle.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Bycle.cs",
+              "RelativeToolTip": "DemoClassCSharp\\Bycle.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAWwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:06:54.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Car.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\Car.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Car.cs",
+              "RelativeToolTip": "DemoClassCSharp\\Car.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T13:05:17.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBycle.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\IBycle.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\IBycle.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\IBycle.cs",
+              "RelativeToolTip": "DemoClassCSharp\\IBycle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:58:27.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ICar.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\ICar.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\ICar.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\ICar.cs",
+              "RelativeToolTip": "DemoClassCSharp\\ICar.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:56:24.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IVehicle.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\IVehicle.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\IVehicle.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\IVehicle.cs",
+              "RelativeToolTip": "DemoClassCSharp\\IVehicle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:56:05.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Animal.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\Animal.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Animal.cs",
+              "RelativeToolTip": "DemoClassCSharp\\Animal.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T12:05:12.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Boy.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Boy.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\Boy.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Boy.cs",
+              "RelativeToolTip": "DemoClassCSharp\\Boy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:41:12.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Person.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\Person.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Person.cs",
+              "RelativeToolTip": "DemoClassCSharp\\Person.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:40:01.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Program.cs",
+              "RelativeDocumentMoniker": "DemoClassCSharp\\Program.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\DemoClassCSharp\\DemoClassCSharp\\Program.cs",
+              "RelativeToolTip": "DemoClassCSharp\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-24T11:30:53.658Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

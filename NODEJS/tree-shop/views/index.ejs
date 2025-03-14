@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tree Shop</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+
+    <section>
+        <h2>Add Tree</h2>
+        <form action="/add" method="POST" enctype="multipart/form-data">
+            <label>Tree Name</label>
+            <input type="text" name="treename" required>
+
+            <label>Description</label>
+            <textarea name="description" required></textarea>
+
+            <label>Image</label>
+            <input type="file" name="image">
+            
+            <button type="submit">Add</button>
+        </form>
+
+        <form action="/reset" method="POST">
+            <button type="submit">Reset</button>
+        </form>
+    </section>
+
+    <h2>Tree List</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Image</th>
+            <th>Description</th>
+            <th>Actions</th>
+        </tr>
+        <% trees.forEach((tree, index) => { %>
+            <tr>
+                <td><%= index + 1 %></td>
+                <td><%= tree.treename %></td>
+                <td><img src="<%= tree.image %>" width="50"></td>
+                <td><%= tree.description %></td>
+                <td>
+                    <a href="/edit/<%= tree._id %>" class="btn btn-edit">✏️ Sửa</a>
+                    <a href="/delete/<%= tree._id %>" class="btn btn-delete" onclick="return confirm('Bạn có chắc muốn xóa?')">🗑 Xóa</a>
+                </td>
+
+            </tr>
+        <% }) %>
+    </table>
+</body>
+</html>

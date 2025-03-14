@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .pagination {
+            margin-top: 20px;
+        }
+
+        .pagination a {
+            color: #007bff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            margin: 0 4px;
+        }
+
+        .pagination a.disabled {
+            color: #6c757d;
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+
+        .pagination span {
+            padding: 8px 12px;
+        }
+
+        .form-container {
+            margin-bottom: 20px;
+        }
+
+        .form-container input, .form-container textarea {
+            margin: 5px 0;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .form-container button {
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .form-container button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .action-buttons button {
+            padding: 5px 10px;
+            margin: 0 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .action-buttons .edit-btn {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .action-buttons .delete-btn {
+            background-color: #dc3545;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task List</h1>
+
+    <!-- Form để thêm hoặc cập nhật task -->
+    <div class="form-container">
+        <form id="taskForm" action="/task/add-task" method="POST">
+            <input type="hidden" name="id" id="taskId" value="">
+            <div>
+                <label for="title">Tiêu đề:</label>
+                <input type="text" name="title" id="title" required>
+            </div>
+            <div>
+                <label for="description">Mô tả:</label>
+                <textarea name="description" id="description" rows="3"></textarea>
+            </div>
+            <div>
+                <label for="expire_date">Ngày hết hạn:</label>
+                <input type="date" name="expire_date" id="expire_date">
+            </div>
+            <div>
+                <label for="is_completed">Đã hoàn thành:</label>
+                <input type="checkbox" name="is_completed" id="is_completed" value="1">
+            </div>
+            <button type="submit">Thêm Task</button>
+        </form>
+    </div>
+
+    <!-- Bảng hiển thị danh sách task -->
+    <% if (data && data.length > 0) { %>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Expire_date</th>
+                    <th>Is_completed</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% data.forEach(task => { %>
+                    <tr>
+                        <td><%= task.id %></td>
+                        <td><%= task.title %></td>
+                        <td><%= task.description %></td>
+                        <td><%= task.expire_date %></td>
+                        <td><%= task.is_completed ? 'Yes' : 'No' %></td>
+                        <td class="action-buttons">
+                            <!-- Nút Sửa -->
+                            <button class="edit-btn" onclick="editTask('<%= task.id %>', '<%= task.title %>', '<%= task.description %>', '<%= task.expire_date %>', '<%= task.is_completed %>')">Sửa</button>
+                            <!-- Nút Xóa -->
+                            <form action="/task/delete-task" method="post" style="display:inline;">
+                                <input type="hidden" name="id" value="<%= task.id %>">
+                                <button type="submit" class="delete-btn">Xóa</button>
+                            </form>
+                        </td>
+                    </tr>
+                <% }) %>
+            </tbody>
+        </table>
+    <% } else { %>
+        <p>No tasks found.</p>
+    <% } %>
+
+    <!-- Phân trang -->
+    <div class="pagination">
+        <% if (totalPages > 0) { %>
+            <% if (page > 1) { %>
+                <a href="/tasks?page=<%= page - 1 %>&limit=<%= limit %>">Trang trước</a>
+            <% } else { %>
+                <a href="#" class="disabled">Trang trước</a>
+            <% } %>
+
+            <span>Trang <%= page %> / <%= totalPages %></span>
+
+            <% if (page < totalPages) { %>
+                <a href="/tasks?page=<%= page + 1 %>&limit=<%= limit %>">Trang sau</a>
+            <% } else { %>
+                <a href="#" class="disabled">Trang sau</a>
+            <% } %>
+        <% } else { %>
+            <span>Không có trang nào để hiển thị.</span>
+        <% } %>
+    </div>
+
+    <!-- JavaScript để điền dữ liệu vào form khi nhấn nút Sửa -->
+    <script>
+        function editTask(id, title, description, expire_date, is_completed) {
+            // Điền dữ liệu vào form
+            document.getElementById('taskId').value = id;
+            document.getElementById('title').value = title;
+            document.getElementById('description').value = description || '';
+            document.getElementById('expire_date').value = expire_date || '';
+            document.getElementById('is_completed').checked = is_completed === 1;
+
+            // Thay đổi action của form thành /tasks/update
+            document.getElementById('taskForm').action = '/task/update-task';
+            // Thay đổi nút submit thành "Cập nhật Task"
+            document.querySelector('#taskForm button[type="submit"]').textContent = 'Cập nhật Task';
+        }
+    </script>
+</body>
+</html>

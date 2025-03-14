@@ -1,0 +1,9 @@
+C:\FPT-Aptech\C#\demoForm\demoForm\bin\Debug\demoForm.exe.config
+C:\FPT-Aptech\C#\demoForm\demoForm\bin\Debug\demoForm.exe
+C:\FPT-Aptech\C#\demoForm\demoForm\bin\Debug\demoForm.pdb
+C:\FPT-Aptech\C#\demoForm\demoForm\obj\Debug\demoForm.csproj.AssemblyReference.cache
+C:\FPT-Aptech\C#\demoForm\demoForm\obj\Debug\demoForm.Properties.Resources.resources
+C:\FPT-Aptech\C#\demoForm\demoForm\obj\Debug\demoForm.csproj.GenerateResource.cache
+C:\FPT-Aptech\C#\demoForm\demoForm\obj\Debug\demoForm.csproj.CoreCompileInputs.cache
+C:\FPT-Aptech\C#\demoForm\demoForm\obj\Debug\demoForm.exe
+C:\FPT-Aptech\C#\demoForm\demoForm\obj\Debug\demoForm.pdb

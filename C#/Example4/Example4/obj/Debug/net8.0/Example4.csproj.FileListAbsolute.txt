@@ -1,0 +1,15 @@
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\bin\Debug\net8.0\Example4.exe
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\bin\Debug\net8.0\Example4.deps.json
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\bin\Debug\net8.0\Example4.runtimeconfig.json
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\bin\Debug\net8.0\Example4.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\bin\Debug\net8.0\Example4.pdb
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.AssemblyInfoInputs.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.AssemblyInfo.cs
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.csproj.CoreCompileInputs.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.sourcelink.json
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\refint\Example4.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.pdb
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\Example4.genruntimeconfig.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example4\Example4\obj\Debug\net8.0\ref\Example4.dll

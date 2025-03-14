@@ -1,0 +1,14 @@
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.exe
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.deps.json
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.runtimeconfig.json
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.pdb
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfoInputs.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfo.cs
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\refint\Encapsulation.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.pdb
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.genruntimeconfig.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\ref\Encapsulation.dll

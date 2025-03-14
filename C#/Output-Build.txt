@@ -1,0 +1,8 @@
+﻿Build started at 6:54 PM...
+1>------ Build started: Project: Example1, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example1\Example1\Square.cs(11,50,11,51): error CS1031: Type expected
+1>C:\Users\cnguy\source\repos\FPT-Aptech\C#\Example1\Example1\Square.cs(11,50,11,51): error CS1001: Identifier expected
+1>Done building project "Example1.csproj" -- FAILED.
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 6:54 PM and took 01.901 seconds ==========

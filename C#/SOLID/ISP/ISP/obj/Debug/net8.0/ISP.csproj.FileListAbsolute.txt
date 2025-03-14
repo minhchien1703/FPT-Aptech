@@ -1,0 +1,15 @@
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\bin\Debug\net8.0\ISP.exe
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\bin\Debug\net8.0\ISP.deps.json
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\bin\Debug\net8.0\ISP.runtimeconfig.json
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\bin\Debug\net8.0\ISP.dll
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\bin\Debug\net8.0\ISP.pdb
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.GeneratedMSBuildEditorConfig.editorconfig
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.AssemblyInfoInputs.cache
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.AssemblyInfo.cs
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.csproj.CoreCompileInputs.cache
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.sourcelink.json
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.dll
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\refint\ISP.dll
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.pdb
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ISP.genruntimeconfig.cache
+C:\FPT-Aptech\C#\SOLID\ISP\ISP\obj\Debug\net8.0\ref\ISP.dll

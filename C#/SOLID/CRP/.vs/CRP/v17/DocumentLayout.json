@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FPT-Aptech\\C#\\SOLID\\CRP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{806FC77E-31DB-4900-9658-906B2229CB44}|CRP\\CRP.csproj|c:\\fpt-aptech\\c#\\solid\\crp\\crp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806FC77E-31DB-4900-9658-906B2229CB44}|CRP\\CRP.csproj|solutionrelative:crp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806FC77E-31DB-4900-9658-906B2229CB44}|CRP\\CRP.csproj|c:\\fpt-aptech\\c#\\solid\\crp\\crp\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806FC77E-31DB-4900-9658-906B2229CB44}|CRP\\CRP.csproj|solutionrelative:crp\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{806FC77E-31DB-4900-9658-906B2229CB44}|CRP\\CRP.csproj|c:\\fpt-aptech\\c#\\solid\\crp\\crp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{806FC77E-31DB-4900-9658-906B2229CB44}|CRP\\CRP.csproj|solutionrelative:crp\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\SOLID\\CRP\\CRP\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CRP\\EmployeeRepository.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\SOLID\\CRP\\CRP\\EmployeeRepository.cs",
+              "RelativeToolTip": "CRP\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:45:47.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\SOLID\\CRP\\CRP\\Employee.cs",
+              "RelativeDocumentMoniker": "CRP\\Employee.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\SOLID\\CRP\\CRP\\Employee.cs",
+              "RelativeToolTip": "CRP\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:44:41.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\SOLID\\CRP\\CRP\\Program.cs",
+              "RelativeDocumentMoniker": "CRP\\Program.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\SOLID\\CRP\\CRP\\Program.cs",
+              "RelativeToolTip": "CRP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T11:44:01.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

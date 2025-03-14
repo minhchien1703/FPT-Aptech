@@ -1,0 +1,17 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "test create project by nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "ok",
+    "start": "node lession1/lab1.js"
+  },
+  "author": "chien",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  }
+}

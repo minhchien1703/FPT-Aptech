@@ -1,0 +1,15 @@
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.exe
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.deps.json
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.runtimeconfig.json
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.dll
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Encapsulation.pdb
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.GeneratedMSBuildEditorConfig.editorconfig
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfoInputs.cache
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.AssemblyInfo.cs
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.csproj.CoreCompileInputs.cache
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.sourcelink.json
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.dll
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\refint\Encapsulation.dll
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.pdb
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Encapsulation.genruntimeconfig.cache
+C:\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\ref\Encapsulation.dll

@@ -1,0 +1,173 @@
+/* Tổng thể */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+/* Header */
+header {
+    background-color: #789461;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-style: italic;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Form nhập dữ liệu */
+section {
+    background: white;
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #789461;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #789461;
+    box-shadow: 0 0 5px rgba(120, 148, 97, 0.5);
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #789461;
+}
+
+button[type="submit"]:hover {
+    background-color: #5a7349;
+}
+
+button[type="reset"] {
+    background-color: #c94c4c;
+}
+
+button[type="reset"]:hover {
+    background-color: #a33b3b;
+}
+
+/* Bảng danh sách */
+table {
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 100px;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #789461;
+    color: white;
+    text-transform: uppercase;
+}
+
+td img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Căn chỉnh vị trí các nút */
+.btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* Nút chỉnh sửa */
+.btn-edit {
+    background-color: #3498db;
+    color: white;
+    border: 2px solid #2980b9;
+}
+
+.btn-edit:hover {
+    background-color: #2980b9;
+}
+
+/* Nút xóa */
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+    border: 2px solid #c0392b;
+}
+
+.btn-delete:hover {
+    background-color: #c0392b;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+}

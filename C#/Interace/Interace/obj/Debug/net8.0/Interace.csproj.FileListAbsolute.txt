@@ -1,0 +1,15 @@
+C:\FPT-Aptech\C#\Interace\Interace\bin\Debug\net8.0\Interace.exe
+C:\FPT-Aptech\C#\Interace\Interace\bin\Debug\net8.0\Interace.deps.json
+C:\FPT-Aptech\C#\Interace\Interace\bin\Debug\net8.0\Interace.runtimeconfig.json
+C:\FPT-Aptech\C#\Interace\Interace\bin\Debug\net8.0\Interace.dll
+C:\FPT-Aptech\C#\Interace\Interace\bin\Debug\net8.0\Interace.pdb
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.GeneratedMSBuildEditorConfig.editorconfig
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.AssemblyInfoInputs.cache
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.AssemblyInfo.cs
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.csproj.CoreCompileInputs.cache
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.sourcelink.json
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.dll
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\refint\Interace.dll
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.pdb
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\Interace.genruntimeconfig.cache
+C:\FPT-Aptech\C#\Interace\Interace\obj\Debug\net8.0\ref\Interace.dll

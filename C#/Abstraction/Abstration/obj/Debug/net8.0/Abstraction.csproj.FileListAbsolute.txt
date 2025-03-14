@@ -1,0 +1,14 @@
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Abstraction.exe
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Abstraction.deps.json
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Abstraction.runtimeconfig.json
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Abstraction.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\bin\Debug\net8.0\Abstraction.pdb
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Abstraction.AssemblyInfoInputs.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Abstraction.AssemblyInfo.cs
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Abstraction.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\refint\Abstraction.dll
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Abstraction.pdb
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\Abstraction.genruntimeconfig.cache
+C:\Users\cnguy\source\repos\FPT-Aptech\C#\Encapsulation\Encapsulation\obj\Debug\net8.0\ref\Abstraction.dll

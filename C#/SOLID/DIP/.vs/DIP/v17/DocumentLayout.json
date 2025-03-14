@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|c:\\fpt-aptech\\c#\\solid\\dip\\dip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|solutionrelative:dip\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|c:\\fpt-aptech\\c#\\solid\\dip\\dip\\dataaccesslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|solutionrelative:dip\\dataaccesslogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|c:\\fpt-aptech\\c#\\solid\\dip\\dip\\ifilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|solutionrelative:dip\\ifilelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|c:\\fpt-aptech\\c#\\solid\\dip\\dip\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF2825D-EB2E-44FC-96B6-08EFF06BB1AC}|DIP\\DIP.csproj|solutionrelative:dip\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataAccessLogger.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\DataAccessLogger.cs",
+              "RelativeDocumentMoniker": "DIP\\DataAccessLogger.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\DataAccessLogger.cs",
+              "RelativeToolTip": "DIP\\DataAccessLogger.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwBMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:57:49.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFileLogger.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\IFileLogger.cs",
+              "RelativeDocumentMoniker": "DIP\\IFileLogger.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\IFileLogger.cs",
+              "RelativeToolTip": "DIP\\IFileLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:55:30.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\Logger.cs",
+              "RelativeDocumentMoniker": "DIP\\Logger.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\Logger.cs",
+              "RelativeToolTip": "DIP\\Logger.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:54:36.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\Program.cs",
+              "RelativeDocumentMoniker": "DIP\\Program.cs",
+              "ToolTip": "C:\\FPT-Aptech\\C#\\SOLID\\DIP\\DIP\\Program.cs",
+              "RelativeToolTip": "DIP\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T11:52:27.467Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
