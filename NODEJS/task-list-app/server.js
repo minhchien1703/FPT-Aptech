@@ -23,59 +23,6 @@ const connection = mysql.createPool({
     database: process.env.DB_NAME
 });
 
-
-
-// app.get('/api/v1/tasks', (req, res) => {
-//     connection.connect((err) => {
-//         if (err) throw err;
-//         console.log("Connected to MYSQL DB!")
-
-//         const sql = 'select * from tasks LIMIT ? OFFSET ?';
-//         const page = defaultPage;
-//         const limit = defaultLimit;
-
-//         let offset = (page - 1) * limit;
-
-//         connection.query(sql, [limit, offset], (err, results) => {
-//             if (err) {
-//                 console.error("Lỗi truy vấn SQL:", err);
-//                 return res.status(500).json({ error: "Lỗi truy vấn dữ liệu" });
-//             }
-
-//             return res.json(results);
-//         })
-
-//         // connection.query('Select * from tasks', (err, result) => {
-//         //     if (err) throw err;
-//         //     return res.json(result);
-//         // })
-
-
-//         connection.end();
-//     })
-// })
-
-
-// app.post('/task/add-task', (req, res) => {
-//     const { title, description, date, isCompleted } = req.body;
-
-//     let sql = 'INSERT INTO tasks (title, description, expire_date, is_completed) values (?,?,?,?)'
-
-//     connection.query(sql, [title, description, date, isCompleted], (err, result) => {
-//         if (err) {
-//             return res.status(500).json({ err: err.message })
-//         }
-
-//         res.status(201).json({
-//             id: result.insertId,
-//             title,
-//             description,
-//             date,
-//             isCompleted
-//         });
-//     })
-// })
-
 app.post('/task/add-task', (req, res) => {
     const {title, description, date, isCompleted} = req.body;
 
