@@ -1,0 +1,30 @@
+# cmd run docker-compose up -d
+# clear docker-compose down
+# check run success docker logs -f --tail 200 prometheus
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name:  t2311e_prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+  node-exporter:
+    image: prom/node-exporter:latest
+    container_name: t2311e_node_exporter
+    ports:
+    - "9100:9100"
+    restart: unless-stopped
+  cadvisor:
+    image: google/cadvisor 
+    container_name: t2311e_cadvisor
+    ports:
+      - "8080:8080"
+  grafana:
+    container_name: t2311e_grafana
+    image: grafana/grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus
