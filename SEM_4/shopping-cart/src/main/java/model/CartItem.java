@@ -1,10 +1,14 @@
 package model;
 
-public class CartItem {
+import java.io.Serializable;
+
+public class CartItem implements Serializable {
     private Product product;
     private int quantity;
 
-    public CartItem (Product product, int quantity) {
+    public CartItem () {}
+
+    public CartItem(Product product, int quantity) {
         this.product = product;
         this.quantity = quantity;
     }
@@ -25,7 +29,7 @@ public class CartItem {
         this.quantity = quantity;
     }
 
-    public double getTotalPrice() {
+    public double getSubTotal() {
         return product.getPrice() * quantity;
     }
 }

@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@WebServlet("/products")
+@WebServlet("products")
 public class ProductServlet extends HttpServlet {
     private List<Product> products = new ArrayList<>();
 

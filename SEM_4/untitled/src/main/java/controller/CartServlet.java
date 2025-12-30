@@ -11,7 +11,7 @@ import model.Product;
 import java.io.IOException;
 import java.rmi.ServerException;
 
-@WebServlet("/cart")
+@WebServlet("cart")
 public class CartServlet extends HttpServlet {
     private ProductServlet productServelet;
 

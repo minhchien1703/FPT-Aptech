@@ -1,37 +1,19 @@
 package model;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
+import java.io.Serializable;
+import java.time.LocalDateTime;
+import java.util.*;
 
-public class Cart {
-    private Map<Integer, CartItem> items = new HashMap<>();
+public class Cart implements Serializable {
+    private List<CartItem> items = new ArrayList<>();
 
-    public void addProduct(Product product) {
-        if (items.containsKey(product.getId())) {
-            CartItem item = items.get(product.getId());
-            item.setQuantity(item.getQuantity() + 1);
-        } else {
-            items.put(product.getId(), new CartItem(product, 1));
+    public void addProduct(Product p) {
+        for (CartItem item : items) {
+            if (item.getProduct().getId() == p.getId()) {
+                item.setQuantity(item.getQuantity() + 1);
+                return;
+            }
         }
-    }
-
-    public void removeProduct(int id) {
-        items.remove(id);
-    }
-
-    public Collection<CartItem> getItems() {
-        return items.values();
-    }
-
-    public double getTotal() {
-        return items.values()
-                .stream()
-                .mapToDouble(CartItem::getTotalPrice)
-                .sum();
-    }
-
-    public void setItems(Map<Integer, CartItem> items) {
-        this.items = items;
+        items.add(new CartItem(p, 1));
     }
 }

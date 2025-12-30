@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="shopping-cart:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="962afc6d-5c98-4048-8704-b1ea3b2fb0a7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/AuthServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/AuthDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/AuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product-form.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Entity/OrderBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/ListPerformanceAnalysis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-BE" beforeDir="false" afterPath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-BE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-FE" beforeDir="false" afterPath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-FE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../C#2/Example_C#2" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#2/Example_C#2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/CartItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/CartItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/controller/CartServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/controller/CartServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main/java/controller/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/java/controller/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main/webApp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main/webApp/cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/webapp/cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/main/webApp/products.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../untitled/src/main/webapp/products.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Sem2_Project" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem2_Project" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="36sweT67Jq1rQnnAtoAcOFX2jiu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat Server.Tomcat 11.0.2.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/cnguy/OneDrive/Máy tính/FPT-Aptech/SEM_4/shopping-cart/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.51839083",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mysql_aurora"
+    ]
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationStatuses">
+      <map>
+        <entry key="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
+          <value>
+            <map>
+              <entry key="Tomcat 11.0.2" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 11.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/shopping_cart_war_exploded/products" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="shopping-cart:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/shopping_cart_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e319e874-c03d-400f-99e2-0c4ceda1a4e8" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59477" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="shopping-cart:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-cffe25b9f5b3-intellij.indexing.shared.core-IU-253.28294.334" />
+        <option value="bundled-js-predefined-d6986cc7102b-c7e53b3be11b-JavaScript-IU-253.28294.334" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="962afc6d-5c98-4048-8704-b1ea3b2fb0a7" name="Changes" comment="" />
+      <created>1765808682783</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1765808682783</updated>
+      <workItem from="1765808683998" duration="23000" />
+      <workItem from="1765815141932" duration="91000" />
+      <workItem from="1765815253828" duration="76000" />
+      <workItem from="1765815341289" duration="649000" />
+      <workItem from="1765816003195" duration="134000" />
+      <workItem from="1765816149554" duration="80000" />
+      <workItem from="1765816256969" duration="68000" />
+      <workItem from="1765816343263" duration="614000" />
+      <workItem from="1765817378290" duration="116000" />
+      <workItem from="1765817511430" duration="13000" />
+      <workItem from="1765817537265" duration="15000" />
+      <workItem from="1765817566463" duration="66000" />
+      <workItem from="1765817642214" duration="12000" />
+      <workItem from="1765817669640" duration="10000" />
+      <workItem from="1765817688118" duration="142000" />
+      <workItem from="1765817890957" duration="6000" />
+      <workItem from="1765817954646" duration="194000" />
+      <workItem from="1765818158401" duration="2124000" />
+      <workItem from="1765820688108" duration="1488000" />
+      <workItem from="1765961602149" duration="208000" />
+      <workItem from="1765974938830" duration="6832000" />
+      <workItem from="1766144615584" duration="6933000" />
+      <workItem from="1766393603828" duration="23000" />
+      <workItem from="1766403270943" duration="1811000" />
+      <workItem from="1766750389681" duration="8913000" />
+      <workItem from="1767007730774" duration="8008000" />
+      <workItem from="1767106772119" duration="7962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/AuthDao.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/AuthDao.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/AuthDao.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dao/AuthDao.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
