@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #2563eb;
+            --primary: #599cde;
             --secondary: #64748b;
             --success: #10b981;
             --danger: #ef4444;
@@ -128,12 +128,14 @@
 
         .btn-delete { color: var(--danger); }
         .btn-delete:hover { background: #fef2f2; }
+
+        .btn-continue { text-decoration: none; display: inline-block; padding: 10px 20px; background: #599cde; color: #ffffff; border-radius: 8px; margin-bottom: 20px; transition: 0.2s; }
+        .btn-continue:hover { background: #e2e8f0; }
     </style>
 </head>
 <body>
-
 <nav class="navbar">
-    <a href="products" class="logo">MyStore</a>
+    <a href="home.jsp" class="logo">MICH APP</a>
     <div class="user-menu">
         <c:choose>
             <c:when test="${not empty sessionScope.user}">
@@ -148,7 +150,10 @@
     </div>
 </nav>
 
+
 <div class="container">
+    <a href="home.jsp" class="btn-continue">← Quay về home</a>
+
     <div class="page-header">
         <h2>Danh sách sản phẩm</h2>
         <a href="products?action=add" class="btn-add">+ Thêm sản phẩm mới</a>

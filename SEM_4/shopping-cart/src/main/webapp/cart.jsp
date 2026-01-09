@@ -4,7 +4,7 @@
 
 <html>
 <head>
-    <title>Giỏ hàng của bạn | Shopping Cart</title>
+    <title>Cart</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -19,12 +19,11 @@
             background-color: var(--bg);
             color: var(--text);
             margin: 0;
-            padding: 40px 20px;
         }
 
         .container {
             max-width: 1000px;
-            margin: 0 auto;
+            margin: 40px auto;
             background: white;
             padding: 30px;
             border-radius: 12px;
@@ -132,9 +131,52 @@
             padding: 50px;
             color: #64748b;
         }
+
+        /*    style new */
+        /* Navbar Header */
+        .navbar {
+            background: white;
+            padding: 15px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .user-menu a {
+            text-decoration: none;
+            color: var(--secondary);
+            font-weight: 500;
+            margin-left: 20px;
+            transition: 0.2s;
+        }
+
+        .user-menu a:hover { color: var(--primary); }
     </style>
 </head>
 <body>
+<nav class="navbar">
+    <a href="home.jsp" class="logo">MICH APP</a>
+    <div class="user-menu">
+        <c:choose>
+            <c:when test="${not empty sessionScope.user}">
+                <span>Chào, <strong>${sessionScope.user.name}</strong></span>
+                <a href="cart">🛒 Giỏ hàng</a>
+                <a href="auth?action=logout" style="color: var(--danger);">Đăng xuất</a>
+            </c:when>
+            <c:otherwise>
+                <a href="auth?action=login">Đăng nhập</a>
+            </c:otherwise>
+        </c:choose>
+    </div>
+</nav>
 
 <div class="container">
     <div class="cart-header">

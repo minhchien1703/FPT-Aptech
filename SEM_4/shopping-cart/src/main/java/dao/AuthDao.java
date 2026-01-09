@@ -13,8 +13,8 @@ public class AuthDao {
     public boolean register(User user) {
         String sql = "INSERT INTO user (name, password, createAt) VALUES (?, ?, NOW())";
 
-        try (Connection conn = DBConnection.getConnection()){
-            PreparedStatement ps = conn.prepareStatement(sql);
+        try (Connection conn = DBConnection.getConnection();
+            PreparedStatement ps = conn.prepareStatement(sql)) {
             ps.setString(1, user.getName());
             ps.setString(2, user.getPassword());
             return ps.executeUpdate() > 0;

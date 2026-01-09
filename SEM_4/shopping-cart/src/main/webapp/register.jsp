@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="jakarta.tags.core" %>
 <html>
 <head>
-    <title>Tham gia cùng chúng tôi | Register</title>
+    <title>Register</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -125,6 +125,9 @@
         .footer-text a:hover {
             text-decoration: underline;
         }
+        .btn-continue { text-decoration: none; display: inline-block; padding: 10px 20px; background: #599cde; color: #ffffff; border-radius: 8px; margin-bottom: 20px; transition: 0.2s; }
+        .btn-continue:hover { background: #e2e8f0; }
+
     </style>
 </head>
 <body>
@@ -160,6 +163,7 @@
 
     <div class="footer-text">
         Đã có tài khoản? <a href="auth?action=login">Đăng nhập ngay</a>
+        <a href="home.jsp" class="forgot-pass">Quay lại</a>
     </div>
 </div>
 

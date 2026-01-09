@@ -39,3 +39,34 @@ create table cart_item (
     constraint fk_cartProduct foreign key  (product_id) references product(id) on delete cascade
 );
 
+CREATE TABLE applicant (
+    id int not null auto_increment,
+    name nvarchar(100),
+    status int,
+
+    primary key (id)
+);
+
+create table winner (
+    ticketId int,
+    drawDate TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (ticketId) REFERENCES applicant(id)
+);
+
+# CREATE PROCEDURE
+DELIMITER $$
+CREATE PROCEDURE insert_applicants()
+BEGIN
+    DECLARE i INT DEFAULT 1;
+    WHILE i <= 1200 DO
+            INSERT INTO applicant (name, status)
+            VALUES (CONCAT('Applicant Name ', i), FLOOR(RAND() * 3)); -- status ngẫu nhiên từ 0-2
+            SET i = i + 1;
+        END WHILE;
+END$$
+DELIMITER ;
+
+CALL insert_applicants();
+DROP PROCEDURE insert_applicants;
+
+

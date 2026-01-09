@@ -120,6 +120,9 @@
         .btn-cancel:hover {
             background-color: #e2e8f0;
         }
+        .btn-continue { text-decoration: none; display: inline-block; padding: 10px 20px; background: #599cde; color: #ffffff; border-radius: 8px; margin-bottom: 20px; transition: 0.2s; }
+        .btn-continue:hover { background: #e2e8f0; }
+
     </style>
 </head>
 <body>

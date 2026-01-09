@@ -72,7 +72,7 @@ public class AuthServlet extends HttpServlet {
         if (user != null) {
             HttpSession session = request.getSession();
             session.setAttribute("user", user);
-            response.sendRedirect("products");
+            request.getRequestDispatcher("home.jsp").forward(request, response);
         } else {
             request.setAttribute("error", "Sai tên đăng nhập hoặc mật khẩu!");
             request.getRequestDispatcher("login.jsp").forward(request, response);

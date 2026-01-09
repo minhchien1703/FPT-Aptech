@@ -20,12 +20,13 @@ public class ProductDao {
         List<Product> products = new ArrayList<>();
         String sql = "SELECT * FROM product";
 
-        try (Connection conn = DBConnection.getConnection()){
+        try (Connection conn = DBConnection.getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)){
+
             if (conn == null) {
                 throw new RuntimeException("DB Connection is NULL!");
             }
 
-            PreparedStatement ps = conn.prepareStatement(sql);
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
@@ -45,14 +46,14 @@ public class ProductDao {
     }
 
     public boolean delete(int id) {
-        String sql = "DELETE product WHERE id = ?";
+        String sql = "DELETE FROM product WHERE id = ?";
 
-        try (Connection conn = DBConnection.getConnection()) {
+        try (Connection conn = DBConnection.getConnection();
+            PreparedStatement ps = conn.prepareStatement(sql)) {
             if (conn == null) {
                 throw new RuntimeException("DB connection is null");
             }
 
-            PreparedStatement ps = conn.prepareStatement(sql);
             ps.setInt(1, id);
 
             int rowsAffected = ps.executeUpdate();
@@ -116,10 +117,10 @@ public class ProductDao {
 
         String sql = "SELECT * FROM product ORDER BY id DESC LINIT ? OFFSET ?";
 
-        try (Connection conn = DBConnection.getConnection()) {
+        try (Connection conn = DBConnection.getConnection();
+             PreparedStatement ps = conn.prepareStatement(sql)) {
             if (conn == null) { throw new RuntimeException("DB connection is null!"); }
 
-        PreparedStatement ps = conn.prepareStatement(sql);
         ps.setInt(1, limit);
         ps.setInt(2, offset);
 

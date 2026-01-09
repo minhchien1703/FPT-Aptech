@@ -144,10 +144,12 @@
         .forgot-pass:hover {
             text-decoration: underline;
         }
+        .btn-continue { text-decoration: none; display: inline-block; padding: 10px 20px; background: #599cde; color: #ffffff; border-radius: 8px; margin-bottom: 20px; transition: 0.2s; }
+        .btn-continue:hover { background: #e2e8f0; }
+
     </style>
 </head>
 <body>
-
 <div class="login-card">
     <h2>Chào mừng trở lại</h2>
     <p class="subtitle">Vui lòng đăng nhập để tiếp tục</p>
@@ -177,6 +179,7 @@
     </form>
 
     <a href="#" class="forgot-pass">Quên mật khẩu?</a>
+    <a href="home.jsp" class="forgot-pass">Quay lại</a>
 </div>
 
 </body>
