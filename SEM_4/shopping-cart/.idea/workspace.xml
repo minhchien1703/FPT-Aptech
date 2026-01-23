@@ -10,14 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="962afc6d-5c98-4048-8704-b1ea3b2fb0a7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../player_information/src/main/java/org/example/player_information/Dao/PlayerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../player_information/src/main/java/org/example/player_information/Model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../player_information/src/main/java/org/example/player_information/Utils/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Dto/UserPagingResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Dto/UserRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Dto/UserResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-BE" beforeDir="false" afterPath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-BE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-FE" beforeDir="false" afterPath="$PROJECT_DIR$/../../APTECH_PJ/3/Talent-Showcase-FE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../C#2/Example_C#2" beforeDir="false" afterPath="$PROJECT_DIR$/../../C#2/Example_C#2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9edde8f9-598e-446d-93ad-36a009c930bd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9edde8f9-598e-446d-93ad-36a009c930bd.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot/src/main/java/com/example/demo/Repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Sem2_Project" beforeDir="false" afterPath="$PROJECT_DIR$/../../Sem2_Project" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,6 +245,9 @@
       <workItem from="1767962864000" duration="30000" />
       <workItem from="1767962942459" duration="2000" />
       <workItem from="1767963091830" duration="21000" />
+      <workItem from="1768485522928" duration="3942000" />
+      <workItem from="1768528753966" duration="264000" />
+      <workItem from="1768567879410" duration="410000" />
     </task>
     <servers />
   </component>
