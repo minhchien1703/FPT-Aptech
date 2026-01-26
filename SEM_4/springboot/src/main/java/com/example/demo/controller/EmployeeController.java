@@ -19,6 +19,12 @@ public class EmployeeController {
     @Autowired
     private EmployeeService employeeService;
 
+    public EmployeeController() {
+        System.out.println("=========================================");
+        System.out.println("DEBUG: CONTROLLER ĐÃ ĐƯỢC KHỞI TẠO !!!");
+        System.out.println("=========================================");
+    }
+
     @GetMapping("/")
     public String viewHomePage(Model model, @RequestParam(name = "keyword", required = false) String keyword) {
         List<EmployeeResponseDto> listEmployees = employeeService.getAllEmployees(keyword);
