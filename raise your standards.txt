@@ -1,0 +1,13 @@
+1. BA => đọc tài liệu để hiểu các cái luồng nghiệp vụ, đồng thời trao đổi lại với khách hàng để làm rõ hơn về những cái vấn đề còn mơ hồ hoặc những cái mà mình cảm thấy yêu cầu của khách hàng không phù hợp với cách đang triển khai của ứng dụng.
+
+2. TESTER => đọc tài liệu về những cái luồng mà mình đang test, test thì phải test vào một cái case chuẩn để cho nó đúng với cái nghiệp vụ trước sau khi cái luồng chính đã test đúng với cái nghiệp vụ của khách hàng thì mình mới test các cái trường hợp khác cho cái case đó.
+
+3. FE => nâng cao kỹ năng đọc logic code và khả năng lần các variable, functions, components,... và cấu trúc dự án. Sau đó thì mới đọc nhiều và làm nhiều về các cái framework... và khi triển khai thì phải tổ chức các component, file dễ đọc hiểu các hàm có thể dùng chung hoặc tái sử dụng thì nên viết kiểu globle, còn những cái thư viện mà chỉ dùng cho mỗi cái component đó thì không nên để vào globle tại vì khi chạy ứng dụng những cái thằng component mà không dùng đến cái thư viện đó nó cũng inject vào thì app sẽ rất nặng và trải nghiệm không tốt!
+
+4. BE => đầu tiên thì phải hiểu được các cái cấu trúc dự án. Và phải hiểu được các cái entity mỗi một thằng entity trong dự án nó là để làm gì và những thằng nào nó sẽ liên quan đến nhau để trong quá trình triển khai nó thể viết chuẩn để có thể đễ hiểu và dễ maintain về sau. Trong quá trình triển khai nếu như mà bị dí quá thì có thể nghĩ ra giải pháp để giải quyết vấn đề đó nhanh chóng cấp bách trong lúc đó cũng được nhưng khi rảnh thì hãy xem lại và cải tiến tiếp cái vấn đề đó cho nó clean code, quan trọng nhất là khi viết truy vấn nó sẽ tùy vào từng loại dự án và từng cái mục đích của cái bài toán đó nên đừng chỉ biết viết một kiểu mà hãy tùy biến kiểu viết code, đừng sợ viết sai mà hãy học cách làm mới tư duy và khả năng học hỏi của một tay BE!
+
+5. FULLSTACK => về cái cấp độ này thì chắc chắn là đều phải biết về cả FE và BE thậm chí là cả DB designer nhưng như thế vẫn chưa đủ để hoàn thiện fullstack được mà còn cần có cả kỹ năng mềm như giao tiếp, đưa ra giải pháp, thiết kế cơ sở dữ liệu... thì mới có thể làm việc một cách độc lập!
+
+6. DB designer => ...
+
+7. SA => ...
