@@ -1,12 +1,9 @@
 package entities;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
-
 import java.io.Serializable;
 
 @Entity
@@ -17,6 +14,7 @@ import java.io.Serializable;
 public class Student implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "student_id")
     private int student_id;
 
     @Column(name = "student_code", nullable = false, length = 20)

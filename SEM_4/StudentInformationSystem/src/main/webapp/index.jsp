@@ -1,5 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib uri="jakarta.tags.core" prefix="c"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,8 +18,16 @@
 
 <table>
     <tr>
-        <th>Id</th><th>Student Id</th><th>Student Name</th><th>Subject Name</th>
-        <th>Score 1</th><th>Score 2</th><th>Credit</th><th>Grade Score</th><th>Grade</th>
+        <th>Id</th>
+        <th>Student Id</th>
+        <th>Student Name</th>
+        <th>Subject Name</th>
+        <th>Score 1</th>
+        <th>Score 2</th>
+        <th>Credit</th>
+        <th>Grade Score</th>
+        <th>Grade</th>
+        <th>Actions</th>
     </tr>
     <c:forEach var="s" items="${scores}">
         <c:set var="totalScore" value="${0.3 * s.score1 + 0.7 * s.score2}" />
@@ -39,6 +47,9 @@
                     <c:when test="${totalScore >= 4.0}">D</c:when>
                     <c:otherwise>F</c:otherwise>
                 </c:choose>
+            </td>
+            <td>
+                <a href="StudentServlet?action=editScore&id=${s.student_score_id}">Edit</a>
             </td>
         </tr>
     </c:forEach>
