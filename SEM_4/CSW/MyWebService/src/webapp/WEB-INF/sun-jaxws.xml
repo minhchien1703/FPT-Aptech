@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoints xmlns="https://jakarta.ee/xml/ns/jax-ws/ri/runtime" version="2.0">
+
+    <endpoint
+            name="EmployeeWS"
+            implementation="org.example.mywebservice.ws.EmployeeWS"
+            url-pattern="/EmployeeWS"/>
+
+</endpoints>
