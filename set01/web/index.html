@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dart Exam SET01</title>
+    <script defer src="main.dart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 800px; margin: auto; }
+        .form-row { margin-bottom: 15px; }
+        input { padding: 5px; margin-right: 10px; }
+        button { padding: 6px 15px; cursor: pointer; background-color: #007bff; color: white; border: none; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f4f4f4; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="form-row">
+        <input type="text" id="searchInput" placeholder="Search by Item Name...">
+    </div>
+
+    <h2>My Order</h2>
+
+    <div class="form-row">
+        <input type="text" id="itemInput" placeholder="Item (e.g. A1002)">
+        <input type="text" id="nameInput" placeholder="Item Name">
+        <input type="number" id="qtyInput" placeholder="Quantity" value="1">
+        <input type="number" id="priceInput" placeholder="Price">
+        <input type="text" id="currencyInput" placeholder="Currency" value="USD">
+        <button id="addBtn">Add Item to Cart</button>
+    </div>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Item</th>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Currency</th>
+        </tr>
+        </thead>
+        <tbody id="orderTableBody">
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
